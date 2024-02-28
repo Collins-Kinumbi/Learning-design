@@ -35,7 +35,7 @@ body {
 
 header,
 section {
-  margin-bottom: 48px;
+  margin-bottom: 215px;
 }
 
 h2 {
@@ -58,6 +58,7 @@ h2 {
   color: #fff;
   text-transform: uppercase;
   display: inline-block;
+  border-radius: 100px;
 }
 
 .btn:hover,
@@ -85,7 +86,7 @@ header {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   column-gap: 80px;
-  margin-top: 48px;
+  margin-top: 96px;
 }
 
 .header-text-box {
@@ -93,7 +94,7 @@ header {
 }
 
 h1 {
-  margin-bottom: 24px;
+  margin-bottom: 33px;
   font-size: 44px;
   line-height: 1.1;
   letter-spacing: -2px;
@@ -107,6 +108,7 @@ h1 {
 
 img {
   width: 100%;
+  border-radius: 10px;
 }
 
 /* FEATURES */
@@ -114,7 +116,7 @@ img {
   stroke: #087f5b;
   width: 34px;
   height: 34px;
-  margin-bottom: 16px;
+  margin-bottom: 24px;
 }
 
 .features-title {
@@ -132,6 +134,7 @@ img {
   background-color: #087f5b;
   color: #fff;
   padding: 24px;
+  border-radius: 10px;
 }
 
 .testimonial-box {
@@ -149,16 +152,27 @@ img {
   font-size: 18px;
   line-height: 1.7;
   margin-bottom: 24px;
+  color: #e6fcf5;
+}
+
+.testimonial-author {
+  color: #96f2d7;
 }
 
 /* CHAIRS */
 
 .chair {
   box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+.chair img {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
 }
 
 .chair-box {
-  padding: 24px;
+  padding: 32px;
 }
 
 h3 {
@@ -168,14 +182,14 @@ h3 {
 
 .chair-details {
   list-style: none;
-  margin-bottom: 24px;
+  margin-bottom: 48px;
 }
 
 .chair-details li {
   display: flex;
   align-items: center;
   gap: 12px;
-  margin-bottom: 24px;
+  margin-bottom: 16px;
 }
 
 .chair-details li:last-child {
@@ -191,6 +205,7 @@ h3 {
 .chair-price {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   font-size: 20px;
 }
 
