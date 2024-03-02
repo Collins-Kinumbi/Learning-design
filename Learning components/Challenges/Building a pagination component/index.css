@@ -36,6 +36,10 @@ a {
   transition: 0.3s;
 }
 
+span {
+  color: #adb5bd;
+}
+
 a:hover {
   background-color: #087f5b;
   color: #fff;
