@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Inter", sans-serif;
+  color: #343a40;
+  line-height: 1;
+  display: flex;
+  justify-content: center;
+}
+/* color: #087f5b; */
+
+table {
+  font-size: 18px;
+  width: 800px;
+  /* background-color: #087f5b; */
+  margin-top: 100px;
+  /* border: 1px #343a40 solid; */
+  border-collapse: collapse;
+}
+
+th,
+td {
+  /* border: 1px solid #343a40; */
+  padding: 12px 24px;
+  text-align: left;
+}
+
+thead th {
+  background-color: #087f5b;
+  color: #fff;
+  width: 25%;
+}
+
+tbody tr {
+  background-color: #dee2e6;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #f1f3f5;
+}
